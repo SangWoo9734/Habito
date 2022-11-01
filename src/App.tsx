@@ -1,7 +1,13 @@
 import React from "react";
 
+import ProjectRoute from "@/routes";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <ProjectRoute />
+    </div>
+  );
 }
 
 export default App;
